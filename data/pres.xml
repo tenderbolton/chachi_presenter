@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation>
+<slide type="plain" cls="false" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+this is the chachi_presenter
+
+it´s a slide presenter that simulates
+an old console.
+
+
+
+all green and stuff
+
+
+
+
+
+</slide>
+<slide type="plain" cls="false" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+this is a simple slide.
+
+slides and all configuration needs
+to be created at pres.xml on the 
+data folder
+
+you just need to write some text.
+(use the return character to lift
+the text on the screen)
+
+
+
+
+
+</slide>
+<slide type="plain" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+the "type" attribute specifies which 
+kind of slide you are creating:
+
+plain - plain text (just like this 
+one)
+flock - uses the processing flock
+example as background
+balloons - uses a new sketch as 
+background
+sound - displays a sound reactive sketch
+as background
+
+
+
+
+
+
+</slide>
+<slide type="plain" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+then... we have some other attributes
+to play with:
+
+cls="true" clears the screen before 
+the slide gets rendered.
+
+hasimage="true" sets an image as 
+background.
+you should also set the image name 
+on the "imagename" attribute.
+
+hasvideo="true" same deal here. 
+remember to use "videoname" to set 
+the video file name (use .mov´s)
+</slide>
+
+<slide type="plain" cls="true" hasimage="true"  hasvideo="false" imagename="celebra7.jpg" videoname="">
+this slide has an image as background
+</slide>
+
+<slide type="flock" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+here is a flock example
+
+all text is rendered in front 
+of the flock.
+
+...
+...
+...
+...
+...
+...
+
+
+
+</slide>
+<slide type="flock" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+this is another slide using flocks.
+</slide>
+
+<slide type="sound" cls="true" hasimage="false" hasvideo="false">
+
+
+this is a sound reacting slide
+
+
+
+make some noise
+
+
+
+
+
+
+
+
+</slide>
+
+<slide type="balloons" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+baloons yay!
+
+
+
+
+
+
+
+
+
+
+
+
+</slide>
+<slide type="balloons" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+
+another slide with baloons.
+
+
+
+the balloons are also reactive 
+to sound.
+
+
+
+
+
+
+
+
+</slide>
+<slide type="balloons" cls="true" hasimage="false"  hasvideo="false" imagename="" videoname="">
+bondi is an interaction design 
+collective
+
+http://bondi.cc
+
+
+
+
+
+
+
+cheers
+</slide>
+</presentation>
